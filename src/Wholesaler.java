@@ -9,7 +9,7 @@ public class Wholesaler extends Products {
     String wholesaler_name;
     List <Products> product_details;
 
-
+    public Wholesaler(){}
     public Wholesaler(int wholesaler_id, String wholesaler_name, List product_details) {
         this.wholesaler_id = wholesaler_id;
         this.wholesaler_name = wholesaler_name;
